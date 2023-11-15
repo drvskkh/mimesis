@@ -1,0 +1,104 @@
+#log_block{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    color: #757575;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo3{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.log_but{
+    padding-bottom: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border-width: 0px;
+    border-radius: 25px;
+    width: 310px;
+    height: 35px;
+}
+
+#reg{
+    color: #0b0b0b;
+    background: linear-gradient(to right, #64d6ff, #bb64ff);
+}
+#auth{
+    color: #0b0b0b;
+    background: linear-gradient(to right, #64d6ff, #64ffd7);
+}
+
+#auth:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+#reg:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+.log_input{
+    outline:none;
+    margin: 10px auto 10px auto;
+    font-size: 15px;
+    font-weight: 600;
+    border: solid 1px #757575;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    background-color: #070707;
+    border-radius: 35px;
+    width: 300px;
+    height: 30px;
+}
+.log_input:focus{
+    transition: 1s;
+    border: solid 1px white;
+    background-color: #0f0f0f;
+}
+#or{
+    display: block;
+    font-size: 15px;
+    color:#757575;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 600;
+}
+a{
+    color: #757575;
+}
+a:hover {
+    transition: 0.4s;
+    color:white;
+}
+
+.msg {
+    border-radius: 25px;
+    padding:5px;
+}
+#msg_conf {
+    color: #79ff64;
+    border: 2px solid #79ff64;
+}
+#msg_err {
+    color:#ff6464;
+    border: 2px solid #ff6464;
+}

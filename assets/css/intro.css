@@ -1,0 +1,113 @@
+.intro {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo2 {
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    animation: op 5s;
+    transition: 1s;
+}
+
+.logo2:hover {
+    transform: scale(1.1) translate(-45%, -45%);
+}
+
+.logo {
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -57.5%);
+    opacity: 0;
+    animation: disp 4s;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 2994px;
+    stroke-dashoffset: 2994px;
+    animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(3) {
+    stroke-dasharray: 944px;
+    stroke-dashoffset: 944px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+#logo path:nth-child(4) {
+    stroke-dasharray: 2994px;
+    stroke-dashoffset: 2994px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(5) {
+    stroke-dasharray: 2170px;
+    stroke-dashoffset: 2170px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+#logo path:nth-child(6) {
+    stroke-dasharray: 1683px;
+    stroke-dashoffset: 1683px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(7) {
+    stroke-dasharray: 944px;
+    stroke-dashoffset: 944px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+#logo path:nth-child(8) {
+    stroke-dasharray: 1683px;
+    stroke-dashoffset: 1683px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes op{
+    0% {opacity: 0;}
+    65% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes disp{
+    0% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fade_out{
+    from{
+        opacity: 1;
+        pointer-events: all;
+    }
+    to{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+#workspace{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #64ffd7;
+    display: flex;
+    width:80vh;
+    height: auto;
+}
+
+#block{
+    display:block;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}

@@ -1,0 +1,7 @@
+#error404 {
+    position: absolute;
+    width: 40vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,61 @@
+.header{
+    padding-top: 40px;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#glow{
+    position: fixed;
+    width: 100%;
+    opacity: 0.3;
+}
+
+#logo{
+    margin-left: 60px;
+    height: 54px;
+}
+
+#acc{
+    margin-right: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0;
+
+}
+#user{
+    margin-right: 15px;
+    text-align: right;
+    padding: 0;
+}
+#name{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color:white;
+}
+#role{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #bebebe;
+}
+button{
+    padding: 0;
+    background-repeat: no-repeat;
+    width: 15px;
+    border:0;
+    background-color: transparent;
+}
+#exit{
+    opacity:0.7;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+#exit:hover{
+    transition: 0.4s;
+    opacity: 1;
+}
